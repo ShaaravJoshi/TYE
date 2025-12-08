@@ -1,5 +1,3 @@
-username = Name
-password = Pass
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,16 +7,17 @@ password = Pass
     <link rel="stylesheet" href="style.css">
 </head>
 <body id = "loginpage">
-    <div id = "enter">
+    <div id = "log">
         <br><br>
-        <label for username>Username:</label>
+        <label for username id = "usernamelabel">Username:</label>
         <input type="text" placeholder="Enter Username" id = "username" ><br><br>
         <br><br>
-        <label for password>Password:</label>
+        <label for password id = "passwordlabel">Password:</label>
         <input type="password" placeholder="Enter Password" id = "password"><br><br>
+        <p id = "correct"></p>
         <br><br>
         <button type="submit" id = "Login">Login</button>
-    </div>
+    </div> 
     <script src = 'index.js'></script>
 </body>
-</html> 
+</html>
