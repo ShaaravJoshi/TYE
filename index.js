@@ -1,7 +1,7 @@
 const accountMap = new Map();
 const infomap = new Map();
-infomap.set(1, ["About Us", "[Enter text here]"]);
-infomap.set(2, ["Our Goal", "[Enter text here]"]);
+infomap.set(1, ["About Us", "We are disabled because of Priansh and the fact that Vivaan likes men"]);
+infomap.set(2, ["Our Goal", "We want Vivaan to stop liking men"]);
 
 fetch("Accounts.txt")
   .then(r => r.text())
@@ -41,7 +41,19 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const jobButton = document.getElementById("Jobbutton");
   const socialButton = document.getElementById("Socialbutton");
+  const profileButton = document.getElementById("profilebutton");
+  const logoutButton = document.getElementById("logoutbutton");
 
+  if (profileButton) {
+    profileButton.addEventListener('click', () => {
+      window.location.href = "profile.html";
+    });
+  } 
+  if (logoutButton) {
+    logoutButton.addEventListener('click', () => {
+      window.location.href = "login.html";
+    });
+  }
   if (jobButton) jobButton.addEventListener("click", () => {
     window.location.href = "JobSearch/Jobhome.html";
   });

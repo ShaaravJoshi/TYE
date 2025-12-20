@@ -57,20 +57,31 @@
   transform: scale(1.05);
   z-index: -1;
 }
+#profiletop {
+  text-align: center;
+  font-size: 80px;
+  background-color: teal;
+}
 
+#profilebottom {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  background-color: #dd8741;
+}
 #Homediv {
-  background-color: #f48c06;
+  background-color:teal;
   width: 100%;
   padding: 20px 0;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #infobuttons {
-  background-color: #e85d04;
+  background-color: #dd8741;;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -80,7 +91,7 @@
 #infobuttons .infobutton {
   height: 100px;
   width: 50%;
-  background-color: #e85d04;
+  background-color: #dd8741;;
   font-size: 24px;
   border-radius: 50px;
   border: none;
@@ -90,7 +101,7 @@
 }
 
 #infobuttons .infobutton:hover {
-  background-color: #f48c06;
+  background-color:teal;
   color: aqua;
   font-size: 28px;
 }
@@ -110,13 +121,13 @@
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  background-color: #f48c06;
+  background-color:teal;
 }
 
 #infobox {
     width: 100%;
     color: black;
-    background-color: #e85d04;
+    background-color: #dd8741;
     p {
         font-size: 35px;
     }
@@ -130,14 +141,17 @@
   font-size: 28px;
   border-radius: 50px;
   border: none;
-  background-color: #f48c06;
+  background-color:teal;
   color: white;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 #buttons button:hover {
-  background-color: #e85d04;
+  background-color: #dd8741;;
   color: aqua;
   font-size: 30px;
 }
+
+
+
